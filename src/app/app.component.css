@@ -1,0 +1,66 @@
+.client-count-wrp {
+    background: #353030;
+    padding: 100px 0;
+}
+
+.heading h4 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.client-count-wrp-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards h4 {
+    color: #fff;
+    font-size: 70px;
+    line-height: 65px;
+}
+
+.cards:first-child h4 {
+    color: #e4a600;
+}
+
+.cards:last-child h4 {
+    color: #c81010;
+}
+
+.cards:nth-child(2) h4 {
+    color: #48b84b;
+}
+
+.cards:nth-child(3) h4 {
+    color: #28a5df;
+}
+
+.cards p {
+    color: #fff;
+    font-size: 20px;
+}
+
+@media (max-width:991px) {
+    .mt-100 {
+        margin-top: 30px !important;
+    }
+    .client-count-wrp {
+        padding: 40px 0;
+    }
+    .client-count-wrp-inner {
+        flex-direction: column;
+    }
+    .cards h4 {
+        font-size: 50px;
+        line-height: 40px;
+    }
+    .cards {
+        margin: 20px 0;
+    }
+    .client-count-wrp {
+        padding: 25px 0;
+        margin: 0 25px;
+    }
+    /****/
+}
